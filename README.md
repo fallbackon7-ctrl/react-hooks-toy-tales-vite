@@ -42,3 +42,9 @@ be stored.
   should be sent in the body of the PATCH request, as a object:
   `{ likes: 10 }`), to update the toy on the server. Clicking on the button
   should also increase the number of likes on the DOM.
+## CRUD Features Implemented
+
+- GET: Fetch and display toys from the backend.
+- POST: Create a new toy with an initial like count of zero.
+- PATCH: Update a toy's like count.
+- DELETE: Remove a donated toy from the backend and the page.
